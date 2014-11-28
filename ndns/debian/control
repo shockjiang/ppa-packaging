@@ -1,6 +1,6 @@
 Source: ndns
 Priority: extra
-Maintainer: Alexander Afanasyev <alexander.afanasyev@ucla.edu>
+Maintainer: Xiaoke Jiang <shock.jiang@gmail.com>
 Build-Depends: debhelper (>= 8.0.0),
  python (>= 2.7.0),
  pkg-config (>= 0.26),
@@ -12,10 +12,11 @@ Homepage: http://github.com/named-data/ndns
 Vcs-Git: git://github.com/named-data/ndns.git
 Vcs-Browser: http://github.com/named-data/ndns
 
+
 Package: ndns
 Architecture: i386 amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, ndn-cxx
-Description: Domain Name Service for Named Data Networking
+Description: Domain Name Service for Named Data Networking and its extending tools
  NDNS is a completely distributed database system that largely mimics
  the structure of the DNS system in today's Internet but operates within
  the NDN architecture.

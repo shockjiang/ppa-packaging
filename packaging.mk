@@ -1,5 +1,5 @@
 # PPA archive
-PPA=ppa:named-data/ppa-dev
+PPA=ppa:shock-jiang/ppa
 
 # List of target distributions
 DISTROS=precise trusty utopic
